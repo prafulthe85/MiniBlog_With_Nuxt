@@ -8,7 +8,7 @@ const { data, pending, error } = await useFetch(
 
 <template>
   <div>
-    <div v-if="pending">Loading...</div>
+    <div v-if="pending">Loading.....</div>
 
     <div v-else-if="error">Error</div>
 
